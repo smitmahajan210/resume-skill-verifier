@@ -163,8 +163,3 @@ screenshots/
 MS in CSE @ University at Buffalo  
 GitHub: https://github.com/smitmahajan210  
 LinkedIn: https://www.linkedin.com/in/smitmahajan/
-
----
-
-# 📜 License  
-MIT License  
