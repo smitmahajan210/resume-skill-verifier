@@ -162,7 +162,7 @@ screenshots/
 **Smit Mahajan**  
 MS in CSE @ University at Buffalo  
 GitHub: https://github.com/smitmahajan210  
-LinkedIn: Add your link here  
+LinkedIn: https://www.linkedin.com/in/smitmahajan/
 
 ---
 
