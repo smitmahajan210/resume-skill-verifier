@@ -98,11 +98,11 @@ docker-compose up --build
 ```
 
 Services:
-| Service | URL |
-|--------|-----|
-| Frontend | http://localhost:3000 |
-| Backend | http://localhost:8000 |
-| Docs | http://localhost:8000/docs |
+| Service | 
+|---------|
+| Frontend| 
+| Backend | 
+| Docs    |
 
 ---
 
@@ -118,7 +118,7 @@ resume-skill-verifier/
 
 ---
 
-# 🤖 ML Explanation (For Interviews)
+# 🤖 ML
 The ML engine compares **claimed skills** vs **verified GitHub skills**.
 
 ### Features Used:
