@@ -14,14 +14,14 @@ This project solves a real recruiting challenge — **resume skill inflation** �
 
 ---
 
-# 🏆 Badges  
-![Docker](https://img.shields.io/badge/docker-ready-blue)
-![Python](https://img.shields.io/badge/python-3.10-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-success)
-![Next.js](https://img.shields.io/badge/Next.js-Frontend-black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-DB-blue)
-![AWS](https://img.shields.io/badge/AWS-Deployable-orange)
-![License](https://img.shields.io/badge/license-MIT-green)
+# 🏆 Badges
+
+![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-Frontend-000000?logo=next.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?logo=postgresql&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Deployable-FF9900?logo=amazonaws&logoColor=white)
 
 ---
 
