@@ -94,7 +94,23 @@ sequenceDiagram
 # 🚀 How to Run Locally
 
 ```bash
+# from repo root
+cd resume-skill-verifier
 docker-compose up --build
+```
+
+Or run services without Docker:
+
+```bash
+# terminal 1
+cd resume-skill-verifier/backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+# terminal 2
+cd resume-skill-verifier/frontend
+npm install
+npm run dev
 ```
 
 Services:

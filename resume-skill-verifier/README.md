@@ -97,6 +97,20 @@ sequenceDiagram
 docker-compose up --build
 ```
 
+Or run services without Docker:
+
+```bash
+# terminal 1
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+# terminal 2
+cd frontend
+npm install
+npm run dev
+```
+
 Services:
 | Service | 
 |---------|

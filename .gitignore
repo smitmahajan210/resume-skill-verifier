@@ -1,0 +1,4 @@
+resume-skill-verifier/frontend/node_modules/
+resume-skill-verifier/frontend/.next/
+resume-skill-verifier/backend/app/__pycache__/
+resume-skill-verifier/backend/**/*.pyc
