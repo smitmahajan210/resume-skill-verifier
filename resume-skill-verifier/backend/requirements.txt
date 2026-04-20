@@ -4,9 +4,4 @@ sqlalchemy
 psycopg2-binary
 pydantic
 python-multipart
-transformers
-torch
-sentence-transformers
-joblib
-pandas
 requests
