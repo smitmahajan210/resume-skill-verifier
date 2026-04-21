@@ -5,3 +5,7 @@ psycopg2-binary
 pydantic
 python-multipart
 requests
+transformers
+sentence-transformers
+torch
+pymupdf
