@@ -96,21 +96,23 @@ sequenceDiagram
 ```bash
 # from repo root
 cd resume-skill-verifier
+cp .env.example .env   # edit .env if needed
 docker-compose up --build
 ```
 
 Or run services without Docker:
 
 ```bash
-# terminal 1
+# terminal 1 – backend
 cd resume-skill-verifier/backend
 pip install -r requirements.txt
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+DATABASE_URL="postgresql://postgres:password@localhost:5432/resume_db" \
+  uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
-# terminal 2
+# terminal 2 – frontend
 cd resume-skill-verifier/frontend
 npm install
-npm run dev
+NEXT_PUBLIC_API_URL=http://localhost:8000 npm run dev
 ```
 
 Services:
@@ -154,10 +156,10 @@ The ML engine compares **claimed skills** vs **verified GitHub skills**.
 # 📑 API Endpoints
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| POST | `/upload_resume` | Extracts data from resume |
-| GET | `/github/{username}` | Fetches repos |
-| POST | `/verify` | Runs ML trust score |
-| GET | `/report/{id}` | Returns final report |
+| GET | `/auth/health` | Auth health check |
+| POST | `/resumes/upload` | Upload and parse a resume |
+| GET | `/tests/questions?skill=<skill>` | Get skill-based interview questions |
+| GET | `/results/{candidate_id}` | Retrieve verification result for a candidate |
 
 ---
 

@@ -1,6 +1,8 @@
 import { useState } from "react";
 import axios from "axios";
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+
 export default function Upload() {
     const [file, setFile] = useState<File | null>(null);
 
@@ -8,7 +10,7 @@ export default function Upload() {
         if (!file) return;
         const formData = new FormData();
         formData.append("resume", file);
-        await axios.post("http://localhost:8000/resumes/upload", formData);
+        await axios.post(`${API_URL}/resumes/upload`, formData);
         alert("Uploaded!");
     }
 
